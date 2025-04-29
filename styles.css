@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Inder", sans-serif;
+}
+
+.home {
+    background-color: black;
+}
+
+img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-color: transparent;
+    margin-right: 10px;
+    font-family: "Inder", sans-serif;
+}
+
+.header img:hover,
+.programs img:hover,
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.certificate_programs img,
+.secondary_education img {
+    opacity: 0.6;
+}
+
+#banner {
+    opacity: 1;
+    margin-bottom: 0;
+    height: 30%;
+    width: auto;
+}
+
+.label,
+.header {
+    color:goldenrod;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items:last baseline;
+    gap: 30px;
+}
+
+#logo {
+    display: block;
+    margin-left: 10px;
+    width: 50%;
+}
+
+.label {
+    margin-top: 0;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.programs, .certificate_programs, .secondary_education {
+    background-color: white;
+}
+
+.alumni img {
+    opacity: 0.6;
+    padding-top: 20px;
+    width: 220px;
+    height: 220px;
+}
+

@@ -1,9 +1,29 @@
 document.getElementById("logo").onclick = function() {
-    location.href = "home.html";
+    if (window.location.pathname.includes('/programs/')) {
+        location.href = "../home.html";
+    }
+    else (location.href = "home.html");
 };
 
 document.getElementById("alumni").onclick = function() {
-    location.href = "alumni.html";
+    if (window.location.pathname.includes('/programs/')) {
+        location.href = "../alumni.html";
+    }
+    else (location.href = "alumni.html");
+};
+
+document.getElementById("contact").onclick = function() {
+    if (window.location.pathname.includes('/programs/')) {
+        location.href = "../contact.html";
+    }
+    else (location.href = "contact.html");
+};
+
+document.getElementById("calendar").onclick = function() {
+    if (window.location.pathname.includes('/programs/')) {
+        location.href = "../calendar.html";
+    }
+    else (location.href = "calendar.html");
 };
 
 document.getElementById("abm").onclick = function() {
