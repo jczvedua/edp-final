@@ -17,12 +17,13 @@ img {
 }
 
 button {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     background-color: black;
     border-color: transparent;
-    margin-right: 10px;
+    margin-right: 40px;
     font-family: "Inder", sans-serif;
+    padding-bottom: 10px;
 }
 
 .header img:hover,
@@ -30,6 +31,7 @@ button {
 button:hover {
     opacity: 0.6;
     cursor: pointer;
+    color: goldenrod;
 }
 
 .certificate_programs img,
@@ -41,7 +43,7 @@ button:hover {
     opacity: 1;
     margin-bottom: 0;
     height: 30%;
-    width: auto;
+    width: 100%;
 }
 
 .label,
@@ -50,32 +52,50 @@ button:hover {
     background-color: black;
 }
 
+.cluster {
+    color: black;
+    background-color: goldenrod;
+}
+
 .header {
-    display: flex;
+    /* display: flex;
     align-items:last baseline;
-    gap: 30px;
+    gap: 100px; */
+    text-align: right;
 }
 
 #logo {
     display: block;
     margin-left: 10px;
-    width: 50%;
+    width: 40%;
+    height: auto;
 }
 
-.label {
+.label,
+.cluster {
     margin-top: 0;
     padding: 10px;
     font-size: 28px;
 }
 
-.programs, .certificate_programs, .secondary_education {
+.categories {
     background-color: white;
 }
 
+.categories img {
+    width: 180px;
+    height: 180px;
+}
+
 .alumni img {
-    opacity: 0.6;
+    opacity: 1;
     padding-top: 20px;
+    padding-right: 20px;
     width: 220px;
     height: 220px;
+}
+
+.alumni img:hover {
+    cursor: not-allowed;
 }
 

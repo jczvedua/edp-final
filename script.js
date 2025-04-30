@@ -5,6 +5,13 @@ document.getElementById("logo").onclick = function() {
     else (location.href = "home.html");
 };
 
+document.getElementById("home").onclick = function() {
+    if (window.location.pathname.includes('/programs/')) {
+        location.href = "../home.html";
+    }
+    else (location.href = "home.html");
+};
+
 document.getElementById("alumni").onclick = function() {
     if (window.location.pathname.includes('/programs/')) {
         location.href = "../alumni.html";
