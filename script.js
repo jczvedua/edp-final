@@ -1,5 +1,6 @@
 document.getElementById("logo").onclick = function() {
     if (window.location.pathname.includes('/programs/')) {
+        sessionStorage.setItem('scrollTrigger', 'yes');
         location.href = "../home.html";
     }
     else (location.href = "home.html");
@@ -7,6 +8,7 @@ document.getElementById("logo").onclick = function() {
 
 document.getElementById("home").onclick = function() {
     if (window.location.pathname.includes('/programs/')) {
+        sessionStorage.setItem('scrollTrigger', 'yes');
         location.href = "../home.html";
     }
     else (location.href = "home.html");

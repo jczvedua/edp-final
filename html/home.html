@@ -31,16 +31,25 @@
 
             <div class="certificate_programs">
                 <p class="label">CERTIFICATE PROGRAMS</p>
-                <img src="../uma-uma-musume.gif" id="architecture">
-                <img src="../uma-uma-musume.gif" id="teachers_certificate_program">
+                <img src="../images/image 10.png" id="architecture">
+                <img src="../images/image 14.png" id="teachers_certificate_program">
             </div>
 
             <div class="secondary_education">
                 <p class="label">SECONDARY EDUCATION PROGRAMS</p>
-                <img src="../uma-uma-musume.gif" id="ehs">
-                <img src="../uma-uma-musume.gif" id="jhs">
-                <img src="../uma-uma-musume.gif" id="shs">
+                <img src="../images/image 11.png" id="ehs">
+                <img src="../images/image 12.png" id="jhs">
+                <img src="../images/image 13.png" id="shs">
             </div>
         </div>
+
+        <script>
+            window.onload = function() {
+                if (sessionStorage.getItem('scrollTrigger') == 'yes') {
+                    sessionStorage.removeItem('scrollTrigger');
+                    document.querySelector(".categories").scrollIntoView({ behavior: 'smooth' });
+                }
+            };
+        </script>
     </body>
 </html>
