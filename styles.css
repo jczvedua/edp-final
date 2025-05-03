@@ -85,11 +85,6 @@ button:hover {
     background-color: white;
 }
 
-/* .categories img {
-    width: 270px;
-    height: 230px;
-} */
-
 .alumni img {
     opacity: 1;
     padding-top: 20px;
@@ -102,3 +97,7 @@ button:hover {
     cursor: not-allowed;
 }
 
+.programs img {
+    width: 23%;
+    height: 23%;
+}
